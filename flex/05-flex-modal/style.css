@@ -15,11 +15,24 @@ body {
   justify-content: center;
 }
 
+
+/*My Edits*/
+.header{
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  margin-bottom: 8px;
+}
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 12px;
+  /*My Edits*/
+  display: flex;
+  padding: 16px;
 }
 
 .icon {
@@ -33,6 +46,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /*My Edits*/
+  margin-right: 12px;
+  flex:none;
 }
 
 .close-button {
@@ -48,7 +64,16 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  /*My Edits*/
+  margin-left: auto;
 }
+
+ /*My Edits*/
+ .text{
+  margin-bottom: 15px;
+ }
+
+
 
 button {
   cursor: pointer;
